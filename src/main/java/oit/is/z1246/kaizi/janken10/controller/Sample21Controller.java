@@ -1,4 +1,4 @@
-package oit.is.inudaisuki.springboot_samples.controller;
+package oit.is.z1246.kaizi.janken10.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
