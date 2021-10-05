@@ -13,10 +13,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class Sample21Controller{
 
 
- @GetMapping("/sample21")
- public String sample21(){
-  return "sample21.html";
-
- }
+  @GetMapping("/sample21")
+  public String sample21() {
+    return "sample21.html";
+  }
 
 }
