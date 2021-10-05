@@ -18,11 +18,6 @@ public class Sample21Controller{
     return "sample21.html";
   }
 
-  @GetMapping("/sample24")
-  public String sample23() {
-    return "sample24.html";
-  }
-
   /**
    * @param param1
    * @param param2
@@ -59,5 +54,5 @@ public class Sample21Controller{
     // ここで値を登録するとthymeleafが受け取り，htmlで処理することができるようになる
     return "sample21.html";
   }
-
+  
 }
