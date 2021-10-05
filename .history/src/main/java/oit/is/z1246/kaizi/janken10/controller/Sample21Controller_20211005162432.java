@@ -18,13 +18,11 @@ public class Sample21Controller{
     return "sample21.html";
   }
 
-  /**
-   * @param param1
-   * @param param2
-   * @param model
-   * @return
-  */
-  
+  @param param1
+  @param param2
+  @param model
+  @return
+
   @GetMapping("/sample22/{param1}/{param2}")
   public String sample22(@PathVariable String param1, @PathVariable String param2, ModelMap model) {
     int tasu = Integer.parseInt(param1);// param1が文字列なので，parseIntでint型の数値に変換する
