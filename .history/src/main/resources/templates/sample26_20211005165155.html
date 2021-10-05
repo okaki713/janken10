@@ -50,6 +50,23 @@
     </div>
   </div>
   </p>
+
+  <p>
+    数字を3つ入れてみよう
+    <!-- /sample26/ave にpostでアクセスするフォーム-->
+  <form action="/sample26/ave" method="post">
+    <input type="number" name="num1" />
+    <input type="number" name="num2" />
+    <input type="number" name="num3" />
+    <input type="submit" value="計算"><input type="reset" value="リセット">
+  </form>
+  </p>
+
+  <!--score変数が渡された場合のみdivタグの中身を表示する-->
+  <div th:if="${score}">
+    <span id="num_list">
+    </span>
+  </div>
 </body>
 
 </html>
